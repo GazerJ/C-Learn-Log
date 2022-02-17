@@ -20,7 +20,7 @@ class array{
 
 int main(){
 	double *v;
-	array<double *>  a(1,v);
-	a.say();
+//array<double *>  a(1,v);
+//	a.say();
 	return 0;
 }
