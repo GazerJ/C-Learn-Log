@@ -5,6 +5,7 @@
 	+ File
 	+ Class
 	+ Thread
+	+ STL
 	+ ect  
 
 ## Part 2
