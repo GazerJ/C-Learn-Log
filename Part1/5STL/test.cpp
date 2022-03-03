@@ -49,6 +49,16 @@ int main(){
 	
 	for(int i =0 ;i<v.size();i++) cout<<v[i]<<endl;
 	
-	
+	cout << "-------------This is line-------------"<<endl;
+	vector<int> vd={1,2,3,4,5,6,7,8};
+	int n=3;
+	auto pdel=vd.begin()+n;
+	vd.erase(pdel);
+
+	for(int i =0 ;i<vd.size();i++) cout<<vd[i]<<endl;
+
+	vd.insert(vd.begin()+2,100);
+
+	for(int i =0 ;i<vd.size();i++) cout<<vd[i]<<endl;
 	return 0;
 }
