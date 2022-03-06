@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 void load(string filename,int len){
-    ifstream infile("filename");
+    ifstream infile(filename);
 	string file;
 	infile >> file;
 	cout<<"read file \t"<<file<<endl;
