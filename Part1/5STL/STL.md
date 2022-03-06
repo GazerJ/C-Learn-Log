@@ -25,3 +25,8 @@ Standard template library //标准模板库，
 ## array
 ## vector
 ##  deque
+# 关联容器
++ 可迭代对象的常用方法: 
+## set
+## map
+##  deque
