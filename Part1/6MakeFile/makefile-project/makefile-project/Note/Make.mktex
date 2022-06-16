@@ -1,0 +1,6 @@
+
+echo r | pdflatex *.tex
+echo r | pdflatex *.tex
+rm *.log *.aux
+mv *.pdf ../
+
